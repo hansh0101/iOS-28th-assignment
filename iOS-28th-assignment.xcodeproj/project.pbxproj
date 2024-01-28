@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		E28F47C92B654E44006FC566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F47C82B654E44006FC566 /* AppDelegate.swift */; };
 		E28F47CB2B654E44006FC566 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F47CA2B654E44006FC566 /* SceneDelegate.swift */; };
-		E28F47CD2B654E44006FC566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F47CC2B654E44006FC566 /* ViewController.swift */; };
+		E28F47CD2B654E44006FC566 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F47CC2B654E44006FC566 /* LoginViewController.swift */; };
 		E28F47D02B654E44006FC566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28F47CE2B654E44006FC566 /* Main.storyboard */; };
 		E28F47D22B654E46006FC566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28F47D12B654E46006FC566 /* Assets.xcassets */; };
 		E28F47D52B654E46006FC566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28F47D32B654E46006FC566 /* LaunchScreen.storyboard */; };
 		E28F47E02B654E46006FC566 /* iOS_28th_assignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F47DF2B654E46006FC566 /* iOS_28th_assignmentTests.swift */; };
 		E28F47EA2B654E46006FC566 /* iOS_28th_assignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F47E92B654E46006FC566 /* iOS_28th_assignmentUITests.swift */; };
 		E28F47EC2B654E46006FC566 /* iOS_28th_assignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F47EB2B654E46006FC566 /* iOS_28th_assignmentUITestsLaunchTests.swift */; };
+		E28F47F92B654FF1006FC566 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E28F47F82B654FF1006FC566 /* .gitignore */; };
+		E28F47FB2B65FC26006FC566 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F47FA2B65FC26006FC566 /* SignUpViewController.swift */; };
+		E28F47FD2B65FC8D006FC566 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F47FC2B65FC8D006FC566 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		E28F47C52B654E44006FC566 /* iOS-28th-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-28th-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28F47C82B654E44006FC566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E28F47CA2B654E44006FC566 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E28F47CC2B654E44006FC566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E28F47CC2B654E44006FC566 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E28F47CF2B654E44006FC566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E28F47D12B654E46006FC566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28F47D42B654E46006FC566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		E28F47E52B654E46006FC566 /* iOS-28th-assignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-28th-assignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28F47E92B654E46006FC566 /* iOS_28th_assignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_28th_assignmentUITests.swift; sourceTree = "<group>"; };
 		E28F47EB2B654E46006FC566 /* iOS_28th_assignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_28th_assignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E28F47F82B654FF1006FC566 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E28F47FA2B65FC26006FC566 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E28F47FC2B65FC8D006FC566 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,11 @@
 			children = (
 				E28F47C82B654E44006FC566 /* AppDelegate.swift */,
 				E28F47CA2B654E44006FC566 /* SceneDelegate.swift */,
-				E28F47CC2B654E44006FC566 /* ViewController.swift */,
+				E28F47CC2B654E44006FC566 /* LoginViewController.swift */,
 				E28F47CE2B654E44006FC566 /* Main.storyboard */,
+				E28F47FA2B65FC26006FC566 /* SignUpViewController.swift */,
+				E28F47FC2B65FC8D006FC566 /* WelcomeViewController.swift */,
+				E28F47F82B654FF1006FC566 /* .gitignore */,
 				E28F47D12B654E46006FC566 /* Assets.xcassets */,
 				E28F47D32B654E46006FC566 /* LaunchScreen.storyboard */,
 				E28F47D62B654E46006FC566 /* Info.plist */,
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28F47F92B654FF1006FC566 /* .gitignore in Resources */,
 				E28F47D52B654E46006FC566 /* LaunchScreen.storyboard in Resources */,
 				E28F47D22B654E46006FC566 /* Assets.xcassets in Resources */,
 				E28F47D02B654E44006FC566 /* Main.storyboard in Resources */,
@@ -258,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E28F47CD2B654E44006FC566 /* ViewController.swift in Sources */,
+				E28F47CD2B654E44006FC566 /* LoginViewController.swift in Sources */,
+				E28F47FD2B65FC8D006FC566 /* WelcomeViewController.swift in Sources */,
 				E28F47C92B654E44006FC566 /* AppDelegate.swift in Sources */,
+				E28F47FB2B65FC26006FC566 /* SignUpViewController.swift in Sources */,
 				E28F47CB2B654E44006FC566 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
